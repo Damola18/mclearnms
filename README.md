@@ -7,7 +7,9 @@
 * ✅ JS
 * ✅ BOOTSTRAP
 * ✅ GSAP(for animations)
-* Fonts - [Google-Fonts](https://fonts.googleapis.com/css2?family=Recursive:wght@500&display=swap/ "")
 
+## Installation
+- Clone the repo and cd into the project folder
+- <code>npm start</code> will open the localhost port on which the program
 ## Usage
-Click [here](mclearnms.vercel.app/ "here") to open the page in your browser
+[Click here](https://www.mclearnms.vercel.app) to open the page in your browser
