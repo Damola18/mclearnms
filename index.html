@@ -50,6 +50,13 @@
             position: relative;
             bottom:40px;
         }
+
+        .navbar-toggler:focus {
+            outline: none; 
+            border: none; 
+            box-shadow: none; 
+        }
+
     </style>
 
 
@@ -63,18 +70,16 @@
 
         <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#Navbar"
             aria-controls="navbar" aria-expanded="false" data-toggle="collapse">
-            <span class="toggler-icon">
-                <img src="assets/icons/hamburger.svg" alt="hamburger_icon" loading="lazy">
+            <span class="toggler-icon">    
+                <img src="assets/icons/Hamburger.svg" alt="hamburger_icon" loading="lazy">
             </span>
         </button>
 
         <div class="collapse navbar-collapse" id="Navbar">
             <ul class="navbar-nav mx-auto">
-                <li class="nav-item p-2 "><a class="nav-link">Features</a>
-                </li>
+                <li class="nav-item p-2 "><a class="nav-link">Features</a> </li>
                 <li class="nav-item p-2"><a class="nav-link" href="#">Pricing</a></li>
                 <li class="nav-item p-2"><a class="nav-link" href="#">Support</a></li>
-
             </ul>
 
             <ul class="navbar-nav ml-auto nav-mb">
@@ -117,46 +122,44 @@
                     </div>
                 </div>
 
-                <div class="row">
-                    <div class="metric">
-                        <!-- <div class="row col-8"> -->
-                        <div class="row">
-                            <div class="col-sm-1 num">
-                                <div>
-                                    <p class="row-md">
-                                        50+
-                                    </p>
-                                    <p class="row-md text-nowrap">
-                                        Active Schools
-                                    </p>
-                                </div>
+                
 
-                            </div>
-                            <div class="col-sm-1 num">
-                                <div>
-                                    <p class="row-md">
-                                        500+
-                                    </p>
-                                    <p class="row-md text-nowrap">
-                                        Satisfied Lecturers
-                                    </p>
-                                </div>
-
-                            </div>
-                            <div class="col-sm-1 num">
-                                <div>
-                                    <p class="row-md">
-                                        1000+
-                                    </p>
-                                    <p class="row-md text-nowrap">
-                                        Happy Students
-                                    </p>
-                                </div>
-
-                            </div>
+                <div class="container">
+                    <div class="row col-sm-6 numbers">
+                      <div class="col-4">
+                        <div>
+                          <p>
+                            50+
+                          </p>
+                          <p class="text-nowrap">
+                            Active Schools
+                          </p>
                         </div>
+                      </div>
+                      <div class="col-4">
+                        <div>
+                            <p>
+                                500+
+                            </p>
+                            <p class="text-nowrap">
+                                Satisfied Lecturers
+                            </p>
+                        </div>
+                      </div>
+                      <div class="col-4">
+                        <div>
+                            <p>
+                                1000+
+                            </p>
+                            <p class="text-nowrap">
+                                Happy Students
+                            </p>
+                        </div>
+                      </div>
                     </div>
                 </div>
+                  
+                  
             </div>
         </section>
 
@@ -189,10 +192,12 @@
                                 </div>
                             </div>
                         </div>
+                       
+
                         <div class="col learning">
                             <div class="row scope">
                                 <div class="col-2">
-                                    <img src="assets/icons/Book2.svg" />
+                                    <img src="assets/icons/Book2.svg" class="w-100 img-fluid" />
                                 </div>
                                 <div class="col-10 learn">
                                     <p>Course management simplified</p>
@@ -205,6 +210,7 @@
                                 </div>
                             </div>
                         </div>
+
                         <div class="col learning">
                             <div class="row scope">
                                 <div class="col-2">
@@ -412,7 +418,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="d-xs-none col-12 col-md-6 ">
+                                                    <div class="d-xs-none col-12 col-md-6 second ">
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <div class="carousel-body">
                                                                 <p>Since using McLearnMS, my learning experience has
@@ -445,7 +451,7 @@
                                                             </div>
                                                         </div>
                                                     </div>
-                                                    <div class="d-xs-none col-12 col-md-6 ">
+                                                    <div class="d-xs-none col-12 col-md-6 second">
                                                         <div class="d-flex justify-content-center align-items-center">
                                                             <div class="carousel-body">
                                                                 <p>McLearnMS has been a game-changer for our university,
@@ -509,7 +515,7 @@
 
                         <div class="panel panel-default">
                             <div id="headingOne" class="panel-heading" role="tab">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title toggle-icon">
                                     <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
                                         aria-expanded="true" aria-controls="collapseOne">
                                         <i class="fa fa-chevron-down"></i>
@@ -529,7 +535,7 @@
 
                         <div class="panel panel-default">
                             <div id="headingTwo" class="panel-heading" role="tab">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title toggle-icon">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                         href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                                         <i class="fa fa-chevron-down"></i>
@@ -548,10 +554,11 @@
 
                         <div class="panel panel-default">
                             <div id="headingThree" class="panel-heading" role="tab">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title toggle-icon">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                         href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                                         <i class="fa fa-chevron-down"></i>
+                                        <!-- <img src="/assets/icons/Vector.svg"/> -->
                                         Can I use it for free?
                                     </a>
                                 </h4>
@@ -566,7 +573,7 @@
 
                         <div class="panel panel-default">
                             <div id="headingFour" class="panel-heading" role="tab">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title toggle-icon">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                         href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                                         <i class="fa fa-chevron-down"></i>
@@ -584,7 +591,7 @@
 
                         <div class="panel panel-default">
                             <div id="headingFive" class="panel-heading" role="tab">
-                                <h4 class="panel-title">
+                                <h4 class="panel-title toggle-icon">
                                     <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
                                         href="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
                                         <i class="fa fa-chevron-down"></i>
@@ -607,7 +614,7 @@
 
         <!-- CTA -->
         <section class="cta d-flex justify-content-center align-items-center m-5">
-            <div class="text-center">
+            <div class="text-center mt-3">
                 <h4>
                     Beat the competition with Seamless Online Learning - <br /> Join the League of Leading Institutions
                     Today!
@@ -707,9 +714,21 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
 
+    <!-- HAMBURGER TOGGLE -->
+   <script>
+     $(document).ready(function() {
+        $('.navbar-toggler').click(function() {
+          $(this).toggleClass('collapsed');
+          var target = $($(this).data('target'));
+          target.collapse('toggle');
+        });
+      });
+   </script>
+      
+    <!-- ANIMATIONS -->
     <script>
         gsap.from(".hero", { opacity: 0, duration: 1.5, x: -900, ease: Bounce.easeOuteaseOut })
-        gsap.from(".metric", { opacity: 0, duration: 2.5, x: -900, ease: Bounce.easeOuteaseOut })
+        gsap.from(".numbers", { opacity: 0, duration: 2.5, x: -900, ease: Bounce.easeOuteaseOut })
         const timeline = gsap.timeline();
 
         // Add the animations to the timeline
@@ -725,26 +744,34 @@
         gsap.from(".equip-lecturers", { opacity: 0, duration: 2.5, x: -900, ease: Bounce.easeOuteaseOut })
     </script>
 
+    <!-- FAQS ACCORDION -->
     <script>
-        // Ensure the DOM is ready
         $(document).ready(function () {
-            // Add click event listener to accordion panel headings
             $('.panel-heading a').on('click', function (e) {
-                e.preventDefault(); // Prevent the default anchor behavior
+                e.preventDefault(); 
 
-                var panel = $(this).attr('href'); // Get the target panel ID
-                var isOpen = $(panel).hasClass('show'); // Check if the panel is currently open
+                var panel = $(this).attr('href'); 
+                var isOpen = $(panel).hasClass('show'); 
 
-                // Close all panels
+                // this closes all panels
                 $('.panel-collapse').removeClass('show');
                 $('.panel-heading a').addClass('collapsed');
 
                 if (!isOpen) {
-                    // Open the clicked panel
+                    // this opens the clicked panel
                     $(panel).addClass('show');
                     $(this).removeClass('collapsed');
                 }
             });
+        });
+    </script>
+
+    <script>
+        const iconElement = document.querySelector('.panel-title .toggle-icon i');
+
+        iconElement.addEventListener('click', function() {
+            iconElement.classList.toggle('fa-chevron-up');
+            iconElement.classList.toggle('fa-chevron-down');
         });
     </script>
 
