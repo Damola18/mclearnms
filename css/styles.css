@@ -208,9 +208,7 @@
 
 } 
 
-.testimonials {
-    background: url("/assets/images/Testimonials.jpg");
-}
+
 .social-icons{
     margin-left: -10px;
 }
@@ -289,7 +287,32 @@
   height: 300px; 
   width:100%;
 }
+.testimonial .background-image .testimonial-header{
+    display: inline-block;
+    background: #F5F7FC;
+    border-radius: 24px;
+    text-align: center;
+}
+.testimonial .background-image .testimonial-header p {
+    padding: 5px 15px;
+    margin:5px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 0.01em;
+    color: #0041AA;
+}
 
+.testimonial .background-image .content p {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 150%;
+    color: #060C3C;
+}
+.faqs{
+    position: relative;
+    top:100px;
+}
 .faqs .faq-header{
     display: inline-block;
     background: #F5F7FC;
@@ -390,3 +413,101 @@ body {
     margin-top: 0;
   }
   
+  .faqs .background-image {
+    position: absolute;
+    z-index: -1;
+    background-image: url("../assets/images/FAQ.jpg");
+    background-size: cover;
+    background-position: center;
+    /* height: 550px; */
+    width:250px;
+    left:120px;
+  }
+
+  @media screen and (max-width:650px) {
+    .faqs .background-image {
+
+    }
+  }
+
+  .carousel-body {
+    width: 350px;
+    height: 200px;
+    padding:20px;
+    background: #FFFFFF;
+    border-width: 0px 1px 1px 1px;
+    border-style: solid;
+    border-color: #D4DFF1;
+    box-shadow: 0px 12px 24px -4px rgba(41, 76, 171, 0.05), 0px 4px 6px -2px rgba(41, 76, 171, 0.05);
+    border-radius: 8px;
+  }
+
+  .carousel-body p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 170%;
+    text-align: center;
+    color: #000D22;
+  }
+
+  .carousel-body h6 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 170%;
+    text-align: center;
+    color: #44484F;
+   
+  }
+
+  .carousel-body h4 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 170%;
+    text-align: center;
+    color: #000D22;
+  }
+
+  /* @media screen and (max-width:650px) {
+    .carousel-body {
+        width: 450px;
+        height: 140px;
+        padding:25px;
+        gap:5px;
+        background: #FFFFFF;
+        border-width: 0px 1px 1px 1px;
+        border-style: solid;
+        border-color: #D4DFF1;
+        box-shadow: 0px 12px 24px -4px rgba(41, 76, 171, 0.05), 0px 4px 6px -2px rgba(41, 76, 171, 0.05);
+        border-radius: 8px;
+      }
+    
+      .carousel-body p {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 8px;
+        line-height: 170%;
+        text-align: center;
+        color: #000D22;
+      }
+    
+      .carousel-body h6 {
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 170%;
+        text-align: center;
+        color: #44484F;
+      }
+    
+      .carousel-body h4 {
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 170%;
+        text-align: center;
+        color: #000D22;
+      }
+  } */
